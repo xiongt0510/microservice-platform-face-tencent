@@ -1,0 +1,15 @@
+server:
+  port: 2003
+
+tencent:
+  store:
+    expirationMonths: 2
+
+spring:
+  application:
+    name: MICROSERVICE-PLATFORM-FACE-TENCENT
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9000/eureka/
